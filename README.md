@@ -7,6 +7,10 @@ It does not use screenshots as other proffessional solutions. It renders over yo
 
 It provides only JavaScript files for measuring clicks and generating clickmap and is not dependend on specific backend. However, it's primarily developed for Sinatra.
 
+Example
+-------
+Example app running on [Heroku](http://clickmap.herokuapp.com/). Visit `'/admin'` with username: `admin`, password: `clickamp` for admin panel.
+
 Sinatra Installation
 --------------------
 

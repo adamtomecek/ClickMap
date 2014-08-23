@@ -52,7 +52,7 @@ module ClickMap
         date_to = DateTime.strptime(params[:to], "%Y-%m-%d")
       end
 
-      clicks = clicks.where(time: date_from..date_to).group("x, y")
+      clicks = clicks.where(time: date_from..date_to).group("x, y").group("id")
       clicks.each do |c|
         data << {x: c.x, y: c.y, count: c.count, screen_width: c.screen_width}
       end

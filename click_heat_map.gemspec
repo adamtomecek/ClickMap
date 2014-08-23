@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'click_heat_map'
-  s.version     = '0.0.1'
+  s.version     = '0.0.1.2'
   s.date        = '2014-08-23'
   s.summary     = "Click measuring and heatmap generating."
   s.description = "Determine where your users click with simple click heat maps."
@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
 
   s.files = [
       "lib/click_heat_map.rb",
+      "lib/models/click.rb",
       "lib/public/js/heatmap.js",
       "lib/public/js/clickmap.js",
       "lib/public/js/clickmap_admin.js",
