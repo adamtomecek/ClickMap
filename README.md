@@ -153,10 +153,12 @@ end
 And finally you need to add ClickMap files to your template (example uses Slim syntax), usually to layout.
 
 ```slim
+script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+
 - if authorized? # load admin part of clickmap 
   link href='/clickmap/css/clickmap.css' rel='stylesheet' type='text/css'
   script src='/clickmap/js/clickmap_admin.js'
-  script src='/clickmap/js/heatmap.js'
+  script src='/clickmap/js/heatmap.min.js'
 
   coffee:
     $(document).ready ->
