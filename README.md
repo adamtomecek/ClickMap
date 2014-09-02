@@ -9,7 +9,7 @@ It provides only JavaScript files for measuring clicks and generating clickmap a
 
 Example
 -------
-Example app running on [Heroku](http://clickmap.herokuapp.com/). Visit `'/admin'` with username: `admin`, password: `clickamp` for admin panel.
+Example app running on [Heroku](http://clickmap.herokuapp.com/). Visit `'/admin'` with username: `admin`, password: `clickmap` for admin panel.
 
 Sinatra Installation
 --------------------
